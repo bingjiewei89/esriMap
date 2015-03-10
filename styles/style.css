@@ -1,0 +1,40 @@
+html, body, #map {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #FFF;
+	overflow: hidden;
+	font-family: Arial;
+}
+#search{
+	display: block;
+	position: absolute;
+	z-index: 2;
+	top: 20px;
+	left: 25px;
+}
+#basemap-gallery-dropdown{
+	position: absolute;
+	bottom: 20px;
+	left: 25px;
+	background: rgba(214,214,214,0.9);
+	border: 2px solid #fff9e5;
+	border-radius: 4px;
+	padding:2px 1px;
+}
+#basemap-gallery-dropdown #basemap-gallery-dashboard{
+	display:none;
+}
+#basemap-gallery{
+	position: fixed;
+	bottom: 20px;
+	left: 25px;
+	background: rgba(214,214,214,0.9);
+	border: 2px solid #fff9e5;
+	border-radius: 4px;
+	padding:2px 1px;
+	font-size: small;
+}
